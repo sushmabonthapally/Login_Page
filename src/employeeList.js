@@ -30,28 +30,28 @@ class Details extends Component
                 "phoneNo" : "9415346315"
                 },
                 {
-                    "id":4,
-                    "name":"test4",
-                    "age" : "14",
-                    "gender":"male",
-                    "email" : "test4@gmail.com",
-                    "phoneNo" : "9415346316"
+                "id":4,
+                "name":"test4",
+                "age" : "14",
+                "gender":"male",
+                "email" : "test4@gmail.com",
+                "phoneNo" : "9415346316"
                 },
                 {
-                    "id":5,
-                    "name":"test5",
-                    "age" : "15",
-                    "gender":"male",
-                    "email" : "test5@gmail.com",
-                    "phoneNo" : "9415346317"
+                "id":5,
+                "name":"test5",
+                "age" : "15",
+                "gender":"male",
+                "email" : "test5@gmail.com",
+                "phoneNo" : "9415346317"
                 },
                 {
-                    "id":6,
-                    "name":"test6",
-                    "age" : "16",
-                    "gender":"male",
-                    "email" : "test6@gmail.com",
-                    "phoneNo" : "9415346318"
+                "id":6,
+                "name":"test6",
+                "age" : "16",
+                "gender":"male",
+                "email" : "test6@gmail.com",
+                "phoneNo" : "9415346318"
                 }]
                }
              }

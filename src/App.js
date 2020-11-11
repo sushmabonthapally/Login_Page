@@ -1,6 +1,6 @@
 import React  from 'react';
 import Login from './Login';
-import Details from './Backend-data';
+import Details from './employeeList';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import './App.css';

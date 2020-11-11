@@ -9,7 +9,7 @@ constructor(props){
     super(props);
     this.state = {
         textError : null,
-        passwordError : null,
+        passwordError : null
     }
     this.loginDetails = this.loginDetails.bind(this);
 }
@@ -22,13 +22,13 @@ if(this.checkValidation(e))
   if(this.props.name === "hruday@gmail.com" && this.props.passcode === "hruday123")
    {
     setTimeout(()=>{
-      alert("form submitted");
+      alert('form submitted');
       this.props.history.push('/new')
     },500)
    }
 }
-else                                  
-  alert("form has error")
+else 
+  alert("form has error");
 }
 
 checkValidation = ()=>
@@ -85,7 +85,7 @@ checkValidation = ()=>
     return isValid;
 }
    render(){
-    const { name, passcode,textError,passwordError} = this.state;
+    const { name, passcode,textError,passwordError,formError} = this.state;
        return(
          <div style = {{marginTop: "10%"}}>
           <form  className = "Login">
@@ -103,6 +103,7 @@ checkValidation = ()=>
             {passwordError}
             </div>
             <div>
+            {formError}
             <button className = "btn" onClick = {(e)=>this.loginDetails(e)}>Login</button>
             </div>
           </form>
